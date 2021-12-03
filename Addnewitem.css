@@ -1,0 +1,289 @@
+body{
+    
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+.upper-container{
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.upper-container2{
+   position: absolute;
+   margin-left: 200px;
+}
+#circle{
+  float: left;
+  margin-left: 690px;
+  padding-right: 10px;
+}
+#back{
+   font-size: 30px;
+   opacity: 39%;
+}
+h1 {
+    overflow: hidden;
+    text-align: center;
+    font-size: 60px;
+}
+h1:before,
+h1:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 10%;
+}
+h1:before {
+    right: 0.5em;
+    margin-left: -20%;
+}
+h1:after {
+    left: 0.5em;
+    margin-right: -20%;
+}
+.heading2{
+    position: relative;
+    left: 150px;
+    margin-bottom: 50px;
+    color: black;
+}
+
+
+.card1{
+    margin-top: 10px;
+    border:1.5px solid red;
+    height:45vh;
+    width:20%;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px gray;
+    margin: auto;
+}
+
+.div1{
+    position: absolute;
+    top:15px;
+    right: 0;
+    font-size:25px;
+    width: 85%;
+    text-align: left;
+    height: 15%;
+    color: red;
+    padding-bottom: 15px;
+    border-bottom: 1px solid gray;
+}
+
+.div2{
+    width: 90%;
+    height: 10%;
+    font-size: 20px;
+    color: red;
+    text-align: center;
+    position: absolute;
+    top:35%;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
+.div3{
+    width: 90%;
+    height: 10%;
+    position: absolute;
+    top:52%;
+    text-align: center;
+    font-size: 20px;
+}
+#check{
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+}
+
+.div4{
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    font-size: 40px;
+    color: red;
+}
+.temp{
+    display: none;
+    padding-bottom:-50px;
+}
+
+.notshow{
+    filter:blur(6px);
+    -webkit-filter: blur(6px);
+}
+.pop-up{
+    position: absolute;
+    left: 37%;
+    top:30%;
+    height: 25vh;
+    width:25%;
+    border:1.5px solid red;
+    border-radius:10px;
+    color: red;
+    font-size:18px;
+    box-shadow: 3px 3px 10px gray;
+    background-color: white;
+    padding:20px;
+}
+
+.add-new{
+    
+    font-size: 17px;
+}
+.pop-upbar{
+    margin-top: 10px;
+    border-radius: 4px;
+    width: 85%;
+    height: 25%;
+    border: 1.5px solid red;
+    box-shadow: 2px 2px 10px gray;
+
+}
+.pop-up-button{
+    width:20%;
+    height: 15%;
+    margin-top: 19px;
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+    border:none;
+    position: absolute;
+    left:170px;
+    font-size: 20px;
+}
+
+
+
+@media (max-width:600px) {
+
+    .pop-up{
+        height:90vw;
+        width: 150vw;
+        left:80px;
+        top:75%;
+        border-radius: 15px;
+
+    }
+    .new{
+        font-size: 35px;
+    }
+    .pop-upbar{
+        
+        height: 18vw;
+        border-radius: 10px;
+        
+    }
+  
+    .pop-up-button{
+        margin-top: 30px;
+        left:220px;
+        font-size: 25px;
+        border-radius: 25px;
+    }
+    #back{
+        display: none;
+    }
+    .upper-container2{
+        border-bottom: 50px;
+    
+    }
+
+    .card1{
+        
+        border:1.5px solid red;
+        height:120vh;
+        width:140%;
+        position: relative;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px gray;
+        margin-left: 120px;
+        margin-top:200px;
+    }
+
+    .div1{
+        position: absolute;
+        top:15px;
+        right: 0;
+        font-size:50px;
+        width: 85%;
+        text-align: left;
+        height: 20%;
+        color: red;
+        padding-bottom: 10px;
+        border-bottom: 1px solid black;
+        font-weight: bold;
+    }
+    .div2{
+        width: 90%;
+        height: 20%;
+        font-size: 40px;
+        color: red;
+        text-align: center;
+        position: absolute;
+        top:35%;
+        font-weight: bold;
+        text-decoration: line-through;
+    }
+    .div3{
+        width: 90%;
+        height: 20%;
+        position: absolute;
+        top:52%;
+        text-align: center;
+        font-size: 40px;
+    }
+    #check{
+        width: 28px;
+        height: 28px;
+        margin-left: 10px;
+        border: 1px solid black;
+    }
+
+  
+.heading{
+    display: inline;
+    position: relative;
+    left:150px;
+    top: 50px;
+    
+}
+#circle{
+    visibility: hidden;
+}
+
+.temp{
+    display: inline;
+    position: absolute;
+    top:110px;
+    left: 70px;
+    
+}
+
+.div4{
+    position: absolute;
+    right:30px;
+    bottom: 20px;
+    font-size: 85px;
+}
+
+.main-container{
+    margin-top:50px;
+}
+
+.heading{
+    margin-left:-115px;
+}
+
+
+     
+}
+
+
+
