@@ -11,6 +11,9 @@ body{
     margin: 20px;
     width: 80%;
 }
+.next{
+    margin-left: 700px;
+}
 .inner-container{
     width: 170px;
     height: 250px;
@@ -143,6 +146,10 @@ h5{
 
 @media(max-width:600px)
 {
+    .next{
+      margin-top: -55px;  
+      margin-left: 150px;
+    }
     .addlist-format{
         display: none;
     }
@@ -188,7 +195,7 @@ h5{
     .pop-up{
         height: 49vw;
         width:75%;
-        left:50px;
+        left:40px;
             }
     .pop-upbar{
         margin-top: 10px;

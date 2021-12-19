@@ -3,6 +3,10 @@ body{
     font-family: 'Roboto', sans-serif;
     font-family: 'Rubik', sans-serif;
 }
+.next{
+    padding-top: 50px;
+    margin-left: 700px;
+}
 .upper-container{
     position: relative;
     margin-bottom: 80px;
@@ -122,6 +126,12 @@ h1:after {
     .upper-container2{
         border-bottom: 50px;
     
+    }
+
+    .next{
+        padding-top: 100px;
+       margin-left: 290px;
+       font-size: 30px;
     }
 
     .card1{
